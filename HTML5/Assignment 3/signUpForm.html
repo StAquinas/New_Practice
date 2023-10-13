@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <style type="text/css">
+        body    {
+                
+                align-items: left;
+                background-color: rgb(158, 158, 238);
+                margin-left: 20%;
+                margin-right: 20%;
+                border: 2px solid black;
+                padding: 10px 10px 10px 10px;
+                font-family: sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <fieldsheet>
+        <h1>Sign Up</h1>
+        <form>
+            <label for="firstname">First Name:</label>
+            <input type="text" id="firstname"><br><br>
+            <label for="lastname">Last Name:</label>
+            <input type="text" id="lastname"><br><br>
+            <label for="birthday">Date of Birth:</label>
+            <input type="date" id="birthday" name="birthday"><br><br>
+            <label for="gender">Gender:</label>
+            <input type="radio" id="male" name="gender" value="gender">
+            <label for="html">Male</label>
+            <input type="radio" id="female" name="gender" value="gender">
+            <label for="html">female</label><br><br>
+            <label for="conutry">Choose a Country:</label>
+            <select name="country" id="country" form="countryOption">
+                <option value="England">England</option>
+                <option value="Ireland">Ireland</option>
+                <option value="Scotland">Scotland</option>
+                <option value="Wales">Wales</option>
+                <option value="Other">Other</option>
+            </select><br><br>
+            <label for="email">Email address:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone"><br><br>
+            <label for="pass">Password</label>
+            <input type="password" id="pass" name="pass"><br><br>
+            <label for="Conpass">Confirm Password</label>
+            <input type="password" id="Conpass" name="Conpass"><br><br>
+            <label for="accept1">I agree to the terms of use:</label>
+            <input type="checkbox" id="accept" name="accept1" value="yes">
+
+            <footer>
+                <form>
+                <button type="submit"   
+                value="Submit">Submit</button>
+                <button type="cancel"
+                value="Cancel">Cancel</button>
+                </form>
+            </footer>
+            
+        </form>
+    </fieldsheet>
+    
+</body>
+</html>
